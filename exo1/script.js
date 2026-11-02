@@ -1,17 +1,17 @@
-"use strict"; // (slide 52 du cours)
+"use strict"; // (slide 52)
 
 
-// Déclaration des variables et constantes (vu dans les slides 36 et 38 du cours)
+// Déclaration des variables et constantes (slides 36 et 38)
 
-const nom = "John";   // Type String (vu dans le slide 38)
-const prenom = "Doe";     // Type String (vu dans le slide 38)
-const age = 30;           // Type Number entier (vu dans le slide 38)
-const note = 15;          // Type Number entier (vu dans le slide 38)
-const pi = 3.14;          // Type Number décimal / constante (vu dans les slides 36 et 38)
+const nom = "John";   // Type String (slide 38)
+const prenom = "Doe";     // Type String (slide 38)
+const age = 30;           // Type Number entier (slide 38)
+const note = 15;          // Type Number entier (slide 38)
+const pi = 3.14;          // Type Number décimal / constante (slides 36 et 38)
 
 
-// Définition des fonctions f1 à f6 (vu dans le slide 47 du cours)
-// Sortie autorisée uniquement via console.log() (vu dans le slide 34 du cours)
+// Définition des fonctions f1 à f6 (slide 47)
+// Sortie autorisée uniquement via console.log() (slide 34)
 
 
 // Fonction f1 : Affiche le Nom dans la console
