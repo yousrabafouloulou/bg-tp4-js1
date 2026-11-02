@@ -1,7 +1,7 @@
-"use strict"; // Mode strict obligatoire (slide 52 du cours)
+"use strict"; // Mode strict obligatoire (slide 52)
 
 
-// Données Students sous forme de Tableau d'Objets (slide 41 du cours)
+// Données Students sous forme de Tableau d'Objets (slide 41)
 const Students = [
     { id: 1000, prenom: "JOHN", nom: "DOE", note: 14.5 },
     { id: 2000, prenom: "BOB", nom: "CARLTON", note: 7.1 },
@@ -10,9 +10,9 @@ const Students = [
 
 
 // Fonction B : Prend un seul paramètre de type float et retourne un booléen
-// (vu dans les slides 42 et 47 du cours)
+// (slides 42 et 47)
 function B(moyenne) {
-    // Opérateur de comparaison relationnelle >= (vu dans le slide 42 du cours)
+    // Opérateur de comparaison relationnelle >= (slide 42)
     // Retourne true si moyenne >= 10.0, sinon false
     return moyenne >= 10.0;
 }
@@ -20,10 +20,10 @@ function B(moyenne) {
 
 // Fonction A : Appelée au clic sur le bouton Délibération
 // Parcourt les étudiants, appelle la fonction B et affiche le résultat
-// (slides 43, 45 et 47 du cours)
+// (slides 43, 45 et 47)
 
 function A() {
-    // Boucle for pour parcourir le tableau un par un (slide 45 du cours)
+    // Boucle for pour parcourir le tableau un par un (slide 45)
     for (let i = 0; i < Students.length; i++) {
         const student = Students[i];
         
@@ -34,8 +34,8 @@ function A() {
         // La fonction A appelle la fonction B en lui passant la note (float)
         const estAdmis = B(note);
 
-        // Condition if / else (slide 43 du cours)
-        // Affichage un par un avec console.log() (slide 34 du cours)
+        // Condition if / else (slide 43)
+        // Affichage un par un avec console.log() (slide 34)
         if (estAdmis) {
             console.log(id + ": ADMIS");
         } else {
